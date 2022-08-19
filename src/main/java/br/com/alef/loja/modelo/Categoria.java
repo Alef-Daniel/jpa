@@ -26,10 +26,10 @@ public class Categoria {
 		this.id = new CategoriaId(nome,"xpto");
 	}
 	
-
-	public void setNome(String nome) {
-		this.id.getNome()
+	public String getNome() {
+		return this.id.getNome();
 	}
+	
 	
 	
 	
